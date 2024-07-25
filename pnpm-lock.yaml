@@ -20,6 +20,9 @@ importers:
 
   apps/web:
     dependencies:
+      '@trpc/server':
+        specifier: 11.0.0-rc.467
+        version: 11.0.0-rc.467
       api-trpc:
         specifier: workspace:*
         version: link:../../packages/api-trpc
