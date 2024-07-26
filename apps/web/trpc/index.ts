@@ -10,7 +10,7 @@ import {
 /**
  * We only import the `AppRouter` type from the server - this is not available at runtime
  */
-import type { ArticleRouter } from '../procedures/user.js';
+import type { ArticleRouter } from 'api-routers';
 
 // Initialize the tRPC client
 export const trpc = createTRPCClient<ArticleRouter>({

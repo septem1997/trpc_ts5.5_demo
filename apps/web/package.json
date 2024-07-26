@@ -13,6 +13,7 @@
     "react-dom": "19.0.0-rc-f994737d14-20240522",
     "next": "15.0.0-rc.0",
     "api-trpc": "workspace:*",
+    "api-routers": "workspace:*",
     "@trpc/server": "11.0.0-rc.467",
     "@trpc/client": "11.0.0-rc.467"
   },

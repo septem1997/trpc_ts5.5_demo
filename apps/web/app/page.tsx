@@ -1,5 +1,7 @@
 import {trpc} from "../trpc";
 
+export const dynamic = "force-dynamic"
+
 export default async function Home() {
   // do some fetching, type infer works fine in TypeScript 5.5.0-beta but not in 5.5.4
   const list = await trpc.list.query({type: 'all'})

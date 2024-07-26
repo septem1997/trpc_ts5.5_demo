@@ -1,0 +1,17 @@
+{
+    "name": "api-routers",
+    "version": "0.1.0",
+    "keywords": [],
+    "license": "ISC",
+    "type": "module",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "build": "tsc"
+    },
+    "dependencies": {
+        "@trpc/server": "11.0.0-rc.467",
+        "zod": "3.23.8",
+        "api-trpc": "workspace:*"
+    }
+}

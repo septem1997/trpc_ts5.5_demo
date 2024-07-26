@@ -1,0 +1,1 @@
+export {articleRouter,type ArticleRouter} from './article.js';
