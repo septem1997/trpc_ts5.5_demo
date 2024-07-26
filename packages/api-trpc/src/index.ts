@@ -1,1 +1,1 @@
-export {trpcBuilder} from './trpcBuilder.js';
+export {trpcBuilder,tRouter,tProcedure} from './trpcBuilder.js';

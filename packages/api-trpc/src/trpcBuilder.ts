@@ -5,3 +5,5 @@ export type Context = {
 };
 
 export const trpcBuilder = initTRPC.context<Context>().create();
+export const tRouter = trpcBuilder.router
+export const tProcedure = trpcBuilder.procedure
